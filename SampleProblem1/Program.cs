@@ -12,14 +12,6 @@ namespace SampleProblem1
             int[] result = Problem1.EvolveState(state, days);
             PrintArray(state);
             PrintArray(result);
-            WriteLine();
-
-            state = new [] {1, 1, 1, 0, 1, 1, 1, 1};
-            days = 2;
-            result = Problem1.EvolveState(state, days);
-            PrintArray(state);
-            PrintArray(result);
-            WriteLine();
         }
 
         private static void PrintArray(int[] array)
